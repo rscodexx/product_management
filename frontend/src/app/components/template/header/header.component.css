@@ -10,7 +10,8 @@
 }
 
 .header .logo{
-    max-height: 32px;
+    width: 150px;
+    padding-right: 13%;
 }
 
 .header .title-group{
