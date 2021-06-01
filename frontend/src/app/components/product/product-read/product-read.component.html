@@ -16,6 +16,22 @@
             <mat-cell *matCellDef="let row"> {{row.price | currency: 'BRL'}} </mat-cell>
         </ng-container>
 
+        <ng-container matColumnDef="action">
+            <mat-header-cell *matHeaderCellDef>Ações</mat-header-cell>
+            <mat-cell *matCellDef="let row">
+                <a routerLink="" class="edit">
+                    <i class="material-icons">
+                        edit
+                    </i>
+                </a>
+                <a routerLink="" class="delete">
+                    <i class="material-icons">
+                        delete
+                    </i>
+                </a>
+            </mat-cell>
+        </ng-container>
+
         <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
         <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
     </table>
