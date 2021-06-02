@@ -7,13 +7,13 @@
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro",
+      "name": "Notebook Mac",
       "price": 12
     },
     {
       "id": 3,
       "name": "Samsung S20+",
-      "price": 5
+      "price": "5000"
     },
     {
       "name": "Testando Form",
